@@ -1,0 +1,31 @@
+div{
+    text-align: center;
+}
+
+#nombre {
+    font-weight: bold;
+    margin-top: 30%;
+    margin-left: 10px;
+}
+
+@media(min-width: 576px) {
+    #fotoP{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3 px 3px grey;
+        left: 5%;
+        top: 600px;
+    }
+}
+
+@media(max-width: 575px) {
+    #fotoP{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3 px 3px grey;
+        left: 30%;
+        top: 950px;
+    }
+}
