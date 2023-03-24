@@ -5,11 +5,12 @@
 }
 
 .redes{
-    margin-right: 0,5em;
+    margin-right: 0.2em;
 }
 
 .btn{
     border-width: medium;
+    margin: 0.2em;
 }
 
 #logoAP {
@@ -18,6 +19,7 @@
 
 img {
     width: 40px;
+    margin: 0.2em;
 }
 /*---Vista de celular---*/
 @media(max-width:575px){
@@ -32,6 +34,6 @@ img {
     }
     
     .redes img{
-        margin: 0.2em;
+        margin: 0.5em;
     }
 }

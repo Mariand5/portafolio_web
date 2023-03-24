@@ -2,10 +2,21 @@ div{
     text-align: center;
 }
 
+.row{
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #nombre {
     font-weight: bold;
     margin-top: 30%;
     margin-left: 10px;
+}
+
+#titulo{
+    margin-left: 20%;
+    font-weight: bold;
 }
 
 @media(min-width: 576px) {
@@ -15,7 +26,7 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3 px 3px grey;
         left: 5%;
-        top: 600px;
+        top: 730px;
     }
 }
 
@@ -25,7 +36,7 @@ div{
         width: 30%;
         border-radius: 100%;
         box-shadow: 3px 3 px 3px grey;
-        left: 30%;
+        left: 20%;
         top: 950px;
     }
 }
